@@ -1,0 +1,7 @@
+.films {
+  display: grid;
+  gap: 3rem;
+  place-content: center;
+}
+
+/*# sourceMappingURL=Homepage.css.map */
