@@ -1,10 +1,7 @@
+import React from "react";
 
 export const Reviews = () => {
-
-
-    console.log('dd');
-
-    return (
-        <div>Reviews</div>
-    )
+  return (
+    <div>Reviews</div>
+  )
 }

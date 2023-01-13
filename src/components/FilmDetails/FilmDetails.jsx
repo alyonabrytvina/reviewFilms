@@ -1,9 +1,12 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useFetch } from "../../hooks/useFetch.js";
-import { BASE_URL } from "../../constants/index.js";
-import "./FilmDetails.scss";
+
+import { BASE_URL, ROUTES } from "../../constants/index.js";
 import { FilmDetailsChild } from "../FilmDetailsChild/FilmDetailsChild";
+import curvedSVG from "../../assets/svgs/curved-arrow-back-outline-icon.svg";
+
+import "./FilmDetails.scss";
 
 export const FilmDetails = () => {
   const { id } = useParams();
@@ -17,5 +20,14 @@ export const FilmDetails = () => {
     return console.error("error")
   }
 
-  return !isLoading && fetchedData && <FilmDetailsChild fetchedData={fetchedData} />
+  return (
+    <>
+      <div className="return">
+        <Link to={`${ROUTES.FILMS}`}>
+          <img src={curvedSVG} alt="curved-arrow" />
+        </Link>
+      </div>
+      {!isLoading && fetchedData && <FilmDetailsChild fetchedData={fetchedData} />}
+    </>
+  )
 }
