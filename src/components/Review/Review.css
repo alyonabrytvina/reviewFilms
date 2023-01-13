@@ -1,0 +1,23 @@
+.review {
+  display: grid;
+  gap: 10px;
+  border-bottom: 1px solid;
+  padding-bottom: 2rem;
+  font-family: "RTRondelle-Regular", sans-serif;
+}
+.review__reviewer {
+  font-family: "RTRondelle-Medium", sans-serif;
+  margin: 15px 0 5px 0;
+  font-size: 16px;
+}
+.review__text {
+  line-height: 1.5;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.review:last-child {
+  border-bottom: none;
+}
+
+/*# sourceMappingURL=Review.css.map */
