@@ -1,36 +1,10 @@
-//.film-details {
-//  display: grid;
-//  gap: 5px 40px;
-//  //width: 100vh;
-//  grid-template-columns: minmax(100px, 1fr) 3fr;
-//  grid-template-areas:
-//            "image title"
-//            "image director"
-//            "image released"
-//            "plot plot"
-//            "details .";
-//
-//  &__image {
-//    grid-area: image;
-//  }
-//
-//  &__title {
-//    grid-area: title;
-//  }
-//
-//  &__released {
-//    grid-area: released;
-//  }
-//
-//  &__director {
-//    grid-area: director;
-//  }
-//
-//  &__plot {
-//    grid-area: plot;
-//  }
-//
-//  &__details {
-//    grid-area: details;
-//  }
-//}
+.return {
+  display: flex;
+  justify-content: end;
+}
+
+.return img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}

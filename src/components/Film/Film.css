@@ -1,33 +1,48 @@
 .film {
   display: grid;
-  gap: 10px;
+  gap: 15px;
   width: 100%;
   background: #fff;
   padding: 1rem 1rem 1rem 4rem;
   position: relative;
   grid-template-columns: 1fr 3fr;
-  grid-template-areas: "title title" "releasedTitle released" "creatorsTitle creators" "plot plot" "details .";
+  grid-template-areas: "title title" "plot plot" "details .";
+  font-family: "RTRondelle-Regular", sans-serif;
 }
 .film__image {
   grid-area: image;
 }
 .film__title {
   grid-area: title;
+  font-family: "Gatefold-Demibold", sans-serif;
+  font-size: 20px;
 }
 .film__released-title {
   grid-area: releasedTitle;
+  font-family: "RTRondelle-Medium", sans-serif;
 }
 .film__released {
   grid-area: released;
+  font-size: 14px;
 }
 .film__creators-title {
   grid-area: creatorsTitle;
+  font-family: "RTRondelle-Medium", sans-serif;
 }
 .film__creators {
   grid-area: creators;
+  font-size: 14px;
 }
 .film__plot {
   grid-area: plot;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  background: var(--background);
+  line-height: 1.5;
+  margin-top: 15px;
+  text-align: justify;
 }
 .film__details {
   grid-area: details;
@@ -44,6 +59,7 @@
   justify-content: center;
   font-size: 30px;
   color: #fff;
+  font-family: "Gatefold-Demibold", sans-serif;
 }
 
 /*# sourceMappingURL=Film.css.map */

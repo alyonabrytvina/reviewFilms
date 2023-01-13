@@ -2,25 +2,55 @@
   display: grid;
   gap: 5px 40px;
   grid-template-columns: minmax(100px, 1fr) 3fr;
-  grid-template-areas: "image title" "image director" "image released" "plot plot" "details .";
+  grid-template-areas: "image title" "image genre" "image language" "image duration" "image director" "image releaseStr" "image releaseTheat" "plot plot" "details .";
+  font-family: "RTRondelle-Regular", sans-serif;
+  margin-bottom: 5rem;
+}
+.film-details__fieldName {
+  font-family: "RTRondelle-Medium", sans-serif;
 }
 .film-details__image {
   grid-area: image;
 }
 .film-details__title {
   grid-area: title;
+  font-family: "Gatefold-Demibold", sans-serif;
+  margin: 0;
 }
-.film-details__released {
-  grid-area: released;
+.film-details__released, .film-details__director, .film-details__duration, .film-details__genre, .film-details__language, .film-details__released-streaming, .film-details__released-theaters {
+  font-size: 14px;
 }
 .film-details__director {
   grid-area: director;
 }
 .film-details__plot {
   grid-area: plot;
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 1rem;
 }
 .film-details__details {
   grid-area: details;
+}
+.film-details__comments {
+  display: flex;
+  justify-content: center;
+  font-family: "RTRondelle-Medium", sans-serif;
+}
+.film-details__duration {
+  grid-area: duration;
+}
+.film-details__genre {
+  grid-area: genre;
+}
+.film-details__language {
+  grid-area: language;
+}
+.film-details__released-streaming {
+  grid-area: releaseStr;
+}
+.film-details__released-theaters {
+  grid-area: releaseTheat;
 }
 
 /*# sourceMappingURL=FilmDetailsChild.css.map */
