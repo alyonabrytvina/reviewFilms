@@ -1,12 +1,11 @@
 import React, { useContext } from "react";
 import { useFetch } from "../../hooks/useFetch";
 import { Film } from "../../components/Film/Film.jsx";
-
-import "./Homepage.scss";
+import "./FilmsPage.scss";
 import { BASE_URL_FILMS } from "../../constants/index.js";
 import { LanguageContext } from "../../context/LanguageProvider.jsx";
 
-export const Homepage = () => {
+export const FilmsPage = () => {
   const { locale } = useContext(LanguageContext);
   const { isLoading, isError, fetchedData } = useFetch(`${BASE_URL_FILMS}?locale=${locale}`);
   const films = fetchedData?.data;
