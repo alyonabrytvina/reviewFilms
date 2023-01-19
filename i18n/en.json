@@ -1,0 +1,14 @@
+{
+  "header.title": "Films Collection",
+  "header.homePage": "HomePage",
+  "header.reviews": "Reviews",
+  "header.films": "Films",
+  "details.readMore": "Read more",
+  "film.runtime": "Runtime: ",
+  "film.genre": "Genre: ",
+  "film.originalLanguage": "Original language: ",
+  "film.releaseDate": "Release Date (Streaming): ",
+  "film.director": "Director: ",
+  "film.comments": "Comments",
+  "homepage.greeting": "Welcome to films collection!"
+}

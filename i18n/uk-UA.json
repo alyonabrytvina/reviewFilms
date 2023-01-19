@@ -1,0 +1,14 @@
+{
+  "header.title": "Коллекція фільмів",
+  "header.homePage": "Основна",
+  "header.reviews": "Відгуки",
+  "header.films": "Фільми",
+  "details.readMore": "Дізнатися більше",
+  "film.runtime": "Тривалість: ",
+  "film.genre": "Жанр: ",
+  "film.originalLanguage": "Нативна мова: ",
+  "film.releaseDate": "Дата релізу",
+  "film.director": "Директор: ",
+  "film.comments": "Коментарі",
+  "homepage.greeting": "Ласкаво просимо до колекції фільмів!"
+}

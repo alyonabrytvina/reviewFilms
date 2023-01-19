@@ -1,0 +1,14 @@
+{
+  "header.title": "Kolekcja filmów",
+  "header.homePage": "Strona główna",
+  "header.reviews": "Recenzje",
+  "header.films": "Filmy",
+  "details.readMore": "Dowiedz się więcej",
+  "film.runtime": "Czas trwania: ",
+  "film.genre": "Gatunek: ",
+  "film.originalLanguage": "Język ojczysty: ",
+  "film.releaseDate": "Data wydania",
+  "film.director": "Reżyser: ",
+  "film.comments": "Komentarze",
+  "homepage.greeting": "Witamy w kolekcji filmów!!"
+}
