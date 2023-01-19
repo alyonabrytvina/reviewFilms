@@ -1,11 +1,25 @@
-header h3 {
-  color: #8e2ad6;
+header {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  gap: 1rem;
   border-bottom: 2px solid;
+  margin-bottom: 3rem;
   width: 100%;
-  display: flex;
+  color: #8e2ad6;
   padding: 0 4rem 1rem 1rem;
+}
+
+header h3 {
   font-family: "Gatefold-Demibold", sans-serif;
   font-size: 30px;
+  margin-bottom: 0;
+}
+
+.navigation__menu {
+  align-self: end;
+}
+.navigation__menu a {
+  margin-left: 1rem;
 }
 
 /*# sourceMappingURL=Header.css.map */
