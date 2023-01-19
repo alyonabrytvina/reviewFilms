@@ -10,5 +10,6 @@
   "film.releaseDate": "Data wydania",
   "film.director": "Reżyser: ",
   "film.comments": "Komentarze",
-  "homepage.greeting": "Witamy w kolekcji filmów!!"
+  "homepage.greeting": "Witamy w kolekcji filmów!",
+  "page.notFound": "Ta strona nie istnieje."
 }

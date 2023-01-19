@@ -10,5 +10,6 @@
   "film.releaseDate": "Дата релізу",
   "film.director": "Директор: ",
   "film.comments": "Коментарі",
-  "homepage.greeting": "Ласкаво просимо до колекції фільмів!"
+  "homepage.greeting": "Ласкаво просимо до колекції фільмів!",
+  "page.notFound": "Ця сторінка не існує."
 }

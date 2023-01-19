@@ -10,5 +10,6 @@
   "film.releaseDate": "Release Date (Streaming): ",
   "film.director": "Director: ",
   "film.comments": "Comments",
-  "homepage.greeting": "Welcome to films collection!"
+  "homepage.greeting": "Welcome to films collection!",
+  "page.notFound": "This page does not exist."
 }
