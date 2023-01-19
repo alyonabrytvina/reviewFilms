@@ -1,11 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
+import React, { useContext } from "react";
+import { NavLink } from "react-router-dom";
 import { ROUTES } from "../../constants/index.js";
 import "./Film.scss";
+import { FormattedMessage } from "react-intl";
+import { LanguageContext } from "../../context/LanguageProvider.jsx";
 
 export const Film = ({ filmAttributes, filmId, filmIndex }) => {
   const { title, plot } = filmAttributes;
+  const { locale } = useContext(LanguageContext);
 
   return (
     <div className="film">
@@ -18,9 +20,12 @@ export const Film = ({ filmAttributes, filmId, filmIndex }) => {
       <div className="film__plot">
         {plot}
       </div>
-      <div className="film__details">
-        <Link to={`${ROUTES.FILMS}/${filmId}`}>Read more</Link>
-      </div>
+      <NavLink to={`${ROUTES.FILMS}/${locale}/${filmId}`}>
+        <FormattedMessage
+          id={"details.readMore"}
+          defaultMessage={"Read more"}
+        />
+      </NavLink>
     </div>
   )
 }
